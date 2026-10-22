@@ -1,0 +1,1 @@
+ALTER TABLE products ADD COLUMN good_product BOOLEAN
