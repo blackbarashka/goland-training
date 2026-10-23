@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c31e1356-327a-4b8e-8ea3-92b6637c0cd4" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" url="file://$PROJECT_DIR$/../../go1.27.1" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.9683170560679843" />
+      <entry key="MS500" value="3.6277611594590393" />
+      <entry key="S2" value="6.625972842088013" />
+      <entry key="S5" value="11.485040232061074" />
+      <entry key="S10" value="17.991659194004548" />
+      <entry key="S30" value="29.012942599809808" />
+      <entry key="S60" value="38.16018247132751" />
+      <entry key="M2" value="52.87097575304438" />
+      <entry key="M5" value="72.84074426368359" />
+      <entry key="M10" value="83.09687422966559" />
+      <entry key="M15" value="87.07165858171201" />
+      <entry key="M30" value="91.36382206323546" />
+      <entry key="H1" value="93.63715828283294" />
+      <entry key="H2" value="94.80716419456839" />
+      <entry key="H4" value="95.4006995070134" />
+      <entry key="D1" value="95.8997137517292" />
+      <entry key="W1" value="95.98566349540084" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.8700306459022598" />
+      <entry key="MS500" value="3.5376593297005523" />
+      <entry key="S2" value="6.5861600024914875" />
+      <entry key="S5" value="11.460748036214875" />
+      <entry key="S10" value="17.97275578527852" />
+      <entry key="S30" value="29.002403519953145" />
+      <entry key="S60" value="38.15293833926802" />
+      <entry key="M2" value="52.86560180189462" />
+      <entry key="M5" value="72.83758899687533" />
+      <entry key="M10" value="83.09503143003559" />
+      <entry key="M15" value="87.07036091132485" />
+      <entry key="M30" value="91.36313572532757" />
+      <entry key="H1" value="93.63680514792958" />
+      <entry key="H2" value="94.80698505812178" />
+      <entry key="H4" value="95.40060928661063" />
+      <entry key="D1" value="95.89969862356055" />
+      <entry key="W1" value="95.9856613319835" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3L30pUdb8hMTudQn3Hd21uuQC95" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.GoLinterPluginOnboardingV2": "true",
+    "RunOnceActivity.GoLinterPluginStorageMigration": "true",
+    "RunOnceActivity.GoOptimizationToolWindowEnableInLayout.v333333": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.go.analysis.ui.options.defaults": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "go.sdk.automatically.set": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/umaha/go/goland/goland",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/umaha/go/goland/main.go",
+    "to.speed.mode.migration.done": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="go build migration" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+      <module name="goland" />
+      <working_directory value="$PROJECT_DIR$/migration" />
+      <kind value="PACKAGE" />
+      <package value="migration" />
+      <directory value="$PROJECT_DIR$" />
+      <auto_managed_config_id value="$PROJECT_DIR$/migration" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-gosdk-63c95d513abe-08e7ff217c2b-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-262.10968.67" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-GO-262.10968.67" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c31e1356-327a-4b8e-8ea3-92b6637c0cd4" name="Changes" comment="" />
+      <created>1792667626402</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1792667626402</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
