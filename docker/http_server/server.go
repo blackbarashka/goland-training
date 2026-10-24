@@ -24,7 +24,11 @@ func (h *Handler) AddHTTP(w http.ResponseWriter, r *http.Request) {
 		ErrorHTTPServer(w, err, http.StatusBadRequest)
 		return
 	}
-	h.company.Add(worker.FullName, worker.Position)
+	err_ := h.company.Add(worker.FullName, worker.Position)
+	if err_ != nil {
+		ErrorHTTPServer(w, err_, http.StatusBadRequest)
+		return
+	}
 
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(http.StatusCreated) // 201 Created
@@ -35,7 +39,11 @@ func (h *Handler) AddHTTP(w http.ResponseWriter, r *http.Request) {
 }
 
 func (h *Handler) GetWorkersHTTP(w http.ResponseWriter, r *http.Request) {
-	workers := h.company.GetWorkers()
+	workers, err := h.company.GetWorkers()
+	if err != nil {
+		ErrorHTTPServer(w, err, http.StatusInternalServerError)
+		return
+	}
 	w.Header().Set("Content-Type", "application/json")
 	if err := json.NewEncoder(w).Encode(workers); err != nil {
 		ErrorHTTPServer(w, err, http.StatusInternalServerError)
@@ -50,7 +58,11 @@ func (h *Handler) RemoveHTTP(w http.ResponseWriter, r *http.Request) {
 		ErrorHTTPServer(w, err, http.StatusBadRequest)
 		return
 	}
-	h.company.DeleteWorker(idInt)
+	err_ := h.company.DeleteWorker(idInt)
+	if err_ != nil {
+		ErrorHTTPServer(w, err_, http.StatusInternalServerError)
+		return
+	}
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(http.StatusOK)
 	if err := json.NewEncoder(w).Encode(map[string]string{"status": "worker removed"}); err != nil {

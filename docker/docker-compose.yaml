@@ -1,5 +1,30 @@
+version: '3.8'
+
 services:
+  postgres:
+    image: postgres:18-bookworm
+    container_name: pg-container
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: admin
+      POSTGRES_DB: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - pg_data:/var/lib/postgresql
+    restart: always
+
   company-app:
     build: .
+    container_name: company-app-container
     ports:
       - "8080:8080"
+    environment:
+      # Важно: внутри Docker-сети хостом базы данных является имя сервиса "postgres"
+      - DATABASE_URL=postgres://postgres:admin@postgres:5432/postgres
+    depends_on:
+      - postgres
+    restart: always
+
+volumes:
+  pg_data:

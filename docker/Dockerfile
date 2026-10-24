@@ -1,7 +1,7 @@
-FROM golang:1.22
+FROM golang:1.25
 WORKDIR /app
 
 COPY . .
 RUN go mod tidy
 
-CMD ["make", "start"]
+CMD ["go", "run", "main.go"]
