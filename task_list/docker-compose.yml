@@ -1,0 +1,22 @@
+services:
+  app:
+    build: .                   # Собирает Dockerfile из текущей папки
+    ports:
+      - "8080:8080"            # Пробрасывает порт 8080 на ваш компьютер
+    depends_on:
+      - db                     # Запускать приложение только после старта базы данных
+
+  # База данных PostgreSQL
+  db:
+    image: postgres:15-alpine  # Готовый легковесный образ Postgres
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: taskdb
+    ports:
+      - "5432:5432"            # Позволит вам подключаться к БД через DataGrip или DBeaver
+    volumes:
+      - pgdata:/var/lib/postgresql/data # Сохраняет данные, чтобы задачи не пропали при перезапуске контейнера
+
+volumes:
+  pgdata: # Объявление постоянного хранилища
